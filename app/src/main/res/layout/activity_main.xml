@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#203690"
+android:orientation="vertical"
+android:padding="50dp"
+android:gravity="center"
+    tools:context="com.example.hp.applicationazkar.MainActivity">
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView1"
+    android:src="@drawable/buut1" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView2"
+    android:src="@drawable/buut2"
+    android:layout_marginTop="40dp" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView3"
+    android:src="@drawable/buut3"
+    android:layout_marginTop="40dp" />
+
+
+</LinearLayout>
